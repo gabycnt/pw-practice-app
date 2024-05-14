@@ -4,7 +4,6 @@ import { PageManager } from '../page-objects/pageManager'
 // import { FormLayoutsPage } from '../page-objects/formLayoutPage'
 // import { DatepickerPage } from '../page-objects/datepickerPage'
 
-
 test.beforeEach(async({page}) => {
     await page.goto('http://localhost:4200/')
 })
